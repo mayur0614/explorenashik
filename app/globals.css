@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@theme {
+  --color-ink: #10252d;
+  --color-paper: #f8f1e4;
+  --color-river: #176e70;
+  --color-saffron: #e99a32;
+  --color-grape: #653849;
+  --font-display: "Bricolage Grotesque Variable", "Hind", sans-serif;
+  --font-sans: "Hind", system-ui, sans-serif;
+}
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
+.kumbh-hero {
+  background-image: linear-gradient(112deg, rgba(13, 43, 49, .93), rgba(17, 91, 88, .78) 56%, rgba(20, 93, 91, .3)),
+    url("/images/ramkund.webp");
+  background-position: center, center 54%;
+  background-size: cover;
+}
+.kumbh-hero::after { content: ""; position: absolute; inset: auto -5% -42% 38%; height: 72%; border: 1px solid rgba(255,255,255,.19); border-radius: 50%; box-shadow: 0 0 0 22px rgba(255,255,255,.035), 0 0 0 48px rgba(255,255,255,.035), 0 0 0 76px rgba(255,255,255,.025); transform: rotate(-9deg); }
+.hero-ornament { position: absolute; right: 8%; top: 5%; color: rgba(255, 213, 140, .13); font-size: clamp(12rem, 34vw, 27rem); line-height: 1; }
+.language-picker { display: flex; flex-wrap: wrap; align-items: center; }
+.goog-te-gadget { color: var(--color-ink) !important; font: 600 14px var(--font-sans) !important; }
+.goog-te-gadget .goog-te-combo { max-width: 220px; border: 1px solid rgba(16,37,45,.4); border-radius: 999px; background: transparent; padding: 7px 12px; color: var(--color-ink); }
+.goog-te-menu-frame { z-index: 10000 !important; }
+:focus-visible { outline: 3px solid var(--color-saffron); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
