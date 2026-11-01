@@ -1,0 +1,1277 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5307,
+     19.9322
+    ]
+   },
+   "properties": {
+    "id": 1,
+    "name": "Trimbakeshwar Temple",
+    "category": "Religious",
+    "subcategory": "Jyotirlinga temple",
+    "area": "Trimbakeshwar",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "1755-1786 CE (Peshwa Nana Saheb)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "One of the 12 Jyotirlingas of Shiva, at the foot of Brahmagiri hills near the source of the Godavari.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Trimbakeshwar+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.53,
+     19.933
+    ]
+   },
+   "properties": {
+    "id": 2,
+    "name": "Kushavarta Kund",
+    "category": "Religious",
+    "subcategory": "Sacred tank / ghat",
+    "area": "Trimbakeshwar",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Sacred Godavari kund about 400 m from Trimbakeshwar temple; Kumbh Mela bathing site of Shaiva sadhus.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Kushavarta+Kund+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.5017,
+     19.9217
+    ]
+   },
+   "properties": {
+    "id": 3,
+    "name": "Brahmagiri Hill",
+    "category": "Religious / Natural",
+    "subcategory": "Pilgrimage hill",
+    "area": "Trimbakeshwar",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "Ancient",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Hill from which the Godavari is traditionally said to originate; hosts the Trymbakgad fort.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Brahmagiri+Hill+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.518972,
+     19.919694
+    ]
+   },
+   "properties": {
+    "id": 4,
+    "name": "Trymbakgad (Brahmagiri) Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Trimbakeshwar",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~4200 ft) adjoining Trimbakeshwar temple, about 30 km from Nashik; now in ruins.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Trymbakgad+%28Brahmagiri%29+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7558,
+     19.9413
+    ]
+   },
+   "properties": {
+    "id": 5,
+    "name": "Pandavleni (Nashik) Caves",
+    "category": "Historical",
+    "subcategory": "Buddhist rock-cut caves",
+    "area": "Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "c. 1st-2nd century BCE onward",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Cluster of 24 Buddhist caves with inscriptions (incl. from Nahapana's reign), sculptures of Buddha, and Jain figures.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Pandavleni+%28Nashik%29+Caves+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7924,
+     20.0057
+    ]
+   },
+   "properties": {
+    "id": 6,
+    "name": "Kalaram Temple",
+    "category": "Religious",
+    "subcategory": "Rama temple",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "1792 CE",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Famous Rama temple in Panchavati with a black stone idol of Lord Rama.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Kalaram+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.792,
+     20.0072
+    ]
+   },
+   "properties": {
+    "id": 7,
+    "name": "Ramkund",
+    "category": "Religious",
+    "subcategory": "Sacred tank / ghat",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Ancient (Ramayana tradition)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Holiest bathing spot on the Godavari in Nashik; central to the Kumbh Mela.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Ramkund+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7913,
+     20.0063
+    ]
+   },
+   "properties": {
+    "id": 8,
+    "name": "Sita Gufa",
+    "category": "Religious",
+    "subcategory": "Cave shrine",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Ancient (Ramayana tradition)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Small cave shrine in Panchavati, a few metres from Kalaram Temple, tied to Sita in the Ramayana.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Sita+Gufa+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7915,
+     20.005
+    ]
+   },
+   "properties": {
+    "id": 9,
+    "name": "Sundarnarayan Temple",
+    "category": "Religious",
+    "subcategory": "Vishnu temple",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Over 300 years old",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Vishnu temple on the Godavari ghats in Panchavati.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Sundarnarayan+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7918,
+     20.0075
+    ]
+   },
+   "properties": {
+    "id": 10,
+    "name": "Kapaleshwar Mahadev Temple",
+    "category": "Religious",
+    "subcategory": "Shiva temple",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Historic",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Shiva temple on the Godavari bank in Panchavati, noted for having no Nandi.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Kapaleshwar+Mahadev+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.728,
+     20.029
+    ]
+   },
+   "properties": {
+    "id": 11,
+    "name": "Someshwar Temple",
+    "category": "Religious",
+    "subcategory": "Shiva temple",
+    "area": "Gangapur, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Historic",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Shiva temple near Someshwar waterfall on the Godavari.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Someshwar+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.8296,
+     19.9526
+    ]
+   },
+   "properties": {
+    "id": 12,
+    "name": "Muktidham Temple",
+    "category": "Religious",
+    "subcategory": "Modern marble temple",
+    "area": "Nashik Road",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "1971 CE",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Marble temple complex with replicas of the 12 Jyotirlingas and Gita verses engraved on its walls.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Muktidham+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.57,
+     19.92
+    ]
+   },
+   "properties": {
+    "id": 13,
+    "name": "Anjaneri Hill & Fort",
+    "category": "Religious / Natural",
+    "subcategory": "Pilgrimage hill",
+    "area": "Anjaneri, near Trimbakeshwar",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "Ancient",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~4200 ft) on the Nashik-Trimbak road, traditionally the birthplace of Hanuman; Jain caves and temples, popular trek.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Anjaneri+Hill+%26+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.6228,
+     19.9381
+    ]
+   },
+   "properties": {
+    "id": 14,
+    "name": "Coin Museum (IIRNS)",
+    "category": "Museum",
+    "subcategory": "Numismatics museum",
+    "area": "Anjaneri",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "low (coordinates uncertain)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Museum documenting the history of Indian numismatics and coinage.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Coin+Museum+%28IIRNS%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.89,
+     20.4
+    ]
+   },
+   "properties": {
+    "id": 15,
+    "name": "Shri Saptashrungi Gad",
+    "category": "Religious",
+    "subcategory": "Shakti Peeth temple",
+    "area": "Vani, Kalwan",
+    "taluka": "Kalwan",
+    "district": "Nashik",
+    "built_or_era": "Ancient",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Hilltop shrine of goddess Saptashrungi, one of Maharashtra's important Shakti pilgrimage sites, near Vani.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Shri+Saptashrungi+Gad+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.9975,
+     19.847
+    ]
+   },
+   "properties": {
+    "id": 16,
+    "name": "Gondeshwar Temple",
+    "category": "Religious / Historical",
+    "subcategory": "Hemadpanthi temple",
+    "area": "Sinnar",
+    "taluka": "Sinnar",
+    "district": "Nashik",
+    "built_or_era": "c. 11th-12th century CE (Yadava)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Hemadpanthi-style stone temple at Sinnar, a Yadava-era architectural landmark.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Gondeshwar+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.2477,
+     20.3318
+    ]
+   },
+   "properties": {
+    "id": 17,
+    "name": "Renuka Mata Temple",
+    "category": "Religious",
+    "subcategory": "Devi temple",
+    "area": "Chandwad",
+    "taluka": "Chandwad",
+    "district": "Nashik",
+    "built_or_era": "Historic",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Hilltop temple of goddess Renuka near Chandwad.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Renuka+Mata+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.247,
+     20.3322
+    ]
+   },
+   "properties": {
+    "id": 18,
+    "name": "Holkar Wada (Rangmahal)",
+    "category": "Historical",
+    "subcategory": "Wada / palace",
+    "area": "Chandwad",
+    "taluka": "Chandwad",
+    "district": "Nashik",
+    "built_or_era": "18th century (Ahilyabai Holkar)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Historic Holkar-era wada in Chandwad.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Holkar+Wada+%28Rangmahal%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.838,
+     19.942
+    ]
+   },
+   "properties": {
+    "id": 19,
+    "name": "Artillery Museum (Deolali)",
+    "category": "Museum",
+    "subcategory": "Military museum",
+    "area": "Deolali, Nashik Road",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Museum of the School of Artillery with historic guns and military exhibits.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Artillery+Museum+%28Deolali%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.757,
+     19.9412
+    ]
+   },
+   "properties": {
+    "id": 20,
+    "name": "Dadasaheb Phalke Smarak",
+    "category": "Memorial",
+    "subcategory": "Memorial / museum",
+    "area": "Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "Memorial to Dadasaheb Phalke, the father of Indian cinema, near the Pandavleni hill.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Dadasaheb+Phalke+Smarak+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.57,
+     19.695
+    ]
+   },
+   "properties": {
+    "id": 21,
+    "name": "Dhamma Giri (Vipassana Centre)",
+    "category": "Religious",
+    "subcategory": "Meditation centre",
+    "area": "Igatpuri",
+    "taluka": "Igatpuri",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources (existence); coordinates estimated",
+    "description": "International Vipassana meditation centre at Igatpuri.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Dhamma+Giri+%28Vipassana+Centre%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.767354,
+     20.112195
+    ]
+   },
+   "properties": {
+    "id": 22,
+    "name": "Ramsej Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Nashik (Peth side)",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~3200 ft) linked to the Ramayana tradition; site of the 1682-88 Siege of Ramsej; rock cisterns and an inscribed temple wall.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Ramsej+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.81525,
+     20.431722
+    ]
+   },
+   "properties": {
+    "id": 23,
+    "name": "Achala Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Achala, Dindori/Kalwan",
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~4024 ft) in the Ajintha-Satmal range; under Adilshah in 1636 before Mughal capture.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Achala+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.86,
+     20.415444
+    ]
+   },
+   "properties": {
+    "id": 24,
+    "name": "Ahivant Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Dindori/Kalwan",
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~4024 ft), 55 km from Nashik; Achala and Mohandar forts were built to guard it.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Ahivant+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.894417,
+     20.442556
+    ]
+   },
+   "properties": {
+    "id": 25,
+    "name": "Mohandar (Shidaka) Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Dindori/Kalwan",
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~3900 ft) 55 km from Nashik; nearest town is Vani.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Mohandar+%28Shidaka%29+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.92775,
+     20.385972
+    ]
+   },
+   "properties": {
+    "id": 26,
+    "name": "Markandya Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Kalwan",
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~4383 ft) 52 km from Nashik in the Ajintha-Satmal range.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Markandya+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.760917,
+     20.542722
+    ]
+   },
+   "properties": {
+    "id": 27,
+    "name": "Hatgad Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Surgana (near Saputara)",
+    "taluka": "Surgana",
+    "district": "Nashik",
+    "built_or_era": "16th century",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (~3600 ft) 71 km from Nashik; Ganga and Jamuna rock-cut tanks hold water year-round.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Hatgad+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.25917,
+     20.336833
+    ]
+   },
+   "properties": {
+    "id": 28,
+    "name": "Chandwad (Chandor) Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Chandwad",
+    "taluka": "Chandwad",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort 3 km from Chandwad; captured by the British under Lt Col McDowell on 10 April 1818.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Chandwad+%28Chandor%29+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.170083,
+     20.378472
+    ]
+   },
+   "properties": {
+    "id": 29,
+    "name": "Koldher Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Chandwad",
+    "taluka": "Chandwad",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Large, easy-to-climb hill fort with rock-cut granaries and storehouses; no water on the fort.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Koldher+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.209306,
+     20.361333
+    ]
+   },
+   "properties": {
+    "id": 30,
+    "name": "Indrai Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Chandwad",
+    "taluka": "Chandwad",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Hill fort (Indragiri), 75 km from Nashik, less visited by trekkers.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Indrai+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.044861,
+     20.833111
+    ]
+   },
+   "properties": {
+    "id": 31,
+    "name": "Nhavigad (Ratangad) Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Baglan",
+    "taluka": "Baglan (Satana)",
+    "district": "Nashik",
+    "built_or_era": "c. 1400",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Small, hard-to-climb hill fort in the Baglan region.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Nhavigad+%28Ratangad%29+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.529889,
+     20.545389
+    ]
+   },
+   "properties": {
+    "id": 32,
+    "name": "Malegaon Fort",
+    "category": "Fort",
+    "subcategory": "Land fort",
+    "area": "Malegaon",
+    "taluka": "Malegaon",
+    "district": "Nashik",
+    "built_or_era": "Maratha period",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Land fort on the north bank of the Mausam river, 104 km from Nashik; bastions, northern gate and cannons.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Malegaon+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.9454556,
+     20.7222604
+    ]
+   },
+   "properties": {
+    "id": 33,
+    "name": "Salher Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Salher village",
+    "taluka": "Baglan (Satana)",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "One of the highest forts in the Sahyadris (~1,566 m); site of the 1671-72 Battle of Salher between the Marathas and the Mughals.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Salher+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.9536738,
+     20.722441
+    ]
+   },
+   "properties": {
+    "id": 34,
+    "name": "Salota Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Near Salher",
+    "taluka": "Baglan (Satana)",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Ruined hill fort (1,295 m) beside Salher, with three gates and two rock-cut cisterns.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Salota+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.472,
+     19.904972
+    ]
+   },
+   "properties": {
+    "id": 35,
+    "name": "Harihar Fort (Harshgad)",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Nirgudpada / Kotamwadi",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Ruined hill fort (1,120 m) famous for its near-vertical rock-cut steps and cisterns; popular trek near Igatpuri-Trimbak.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Harihar+Fort+%28Harshgad%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.430667,
+     19.903972
+    ]
+   },
+   "properties": {
+    "id": 36,
+    "name": "Bhaskargad (Basgad) Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Trimbak range",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Ruined hill fort (~3,500 ft) in the Trimbak range with rock-cut steps and a cistern.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Bhaskargad+%28Basgad%29+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.536333,
+     19.73778
+    ]
+   },
+   "properties": {
+    "id": 37,
+    "name": "Tringalwadi Fort",
+    "category": "Fort",
+    "subcategory": "Hill fort",
+    "area": "Tringalwadi village",
+    "taluka": "Igatpuri",
+    "district": "Nashik",
+    "built_or_era": "Medieval",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Ruined hill fort (~3,238 ft) that guarded a trade route through Thal Ghat; Jain cave temples are nearby.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Tringalwadi+Fort+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.6671498,
+     20.0260565
+    ]
+   },
+   "properties": {
+    "id": 38,
+    "name": "Gangapur Dam",
+    "category": "Water body",
+    "subcategory": "Dam / reservoir",
+    "area": "Gangapur, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Opened 1965",
+    "verification_status": "verified",
+    "source": "Wikipedia infobox",
+    "description": "Earthfill dam on the Godavari, 36.6 m high, a major drinking-water source for Nashik city.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Gangapur+Dam+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.8083,
+     20.0417
+    ]
+   },
+   "properties": {
+    "id": 39,
+    "name": "Chamar Leni (Chambhar Lena)",
+    "category": "Historical",
+    "subcategory": "Jain rock-cut cave temple",
+    "area": "Near Mhasrul, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Reported 11th century",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "GrottoMap cave database (coordinates); web sources",
+    "description": "Jain rock-cut chamber on a hill north of Nashik town; a fair is held each December.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Chamar+Leni+%28Chambhar+Lena%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.1333,
+     20.7667
+    ]
+   },
+   "properties": {
+    "id": 40,
+    "name": "Mangi-Tungi Jain Siddha Kshetra",
+    "category": "Religious",
+    "subcategory": "Jain pilgrimage site",
+    "area": "Near Tahrabad",
+    "taluka": "Baglan (Satana)",
+    "district": "Nashik",
+    "built_or_era": "Medieval-Modern",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "GrottoMap cave database (coordinates); web sources; Wikipedia (Baglan taluka)",
+    "description": "Twin hills with seven temples on Mangi and five on Tungi, caves with 300+ statues, and a 108 ft Statue of Ahimsa; big fair in Kartik.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Mangi-Tungi+Jain+Siddha+Kshetra+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.69,
+     20.012
+    ]
+   },
+   "properties": {
+    "id": 41,
+    "name": "Sula Vineyards",
+    "category": "Agriculture / Tourism",
+    "subcategory": "Winery",
+    "area": "Gangapur-Savargaon road",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Well-known winery on the Gangapur Dam backwaters; Nashik is India's wine capital.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Sula+Vineyards+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.06,
+     20.0
+    ]
+   },
+   "properties": {
+    "id": 42,
+    "name": "Nandur Madhmeshwar Bird Sanctuary",
+    "category": "Natural",
+    "subcategory": "Wildlife sanctuary / wetland",
+    "area": "Nandur Madhmeshwar",
+    "taluka": "Niphad",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "low (coordinates uncertain)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Wetland sanctuary at the Godavari-Kadva confluence, often called the 'Bharatpur of Maharashtra'.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Nandur+Madhmeshwar+Bird+Sanctuary+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.8036,
+     20.0155
+    ]
+   },
+   "properties": {
+    "id": 43,
+    "name": "Tapovan",
+    "category": "Religious",
+    "subcategory": "Sacred grove / ghat area",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Ancient (Ramayana tradition)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Wooded Godavari bank area where Lakshmana is said to have stayed during the exile; Vaishnava sadhus camp here during the Kumbh.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Tapovan+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7895,
+     20.007
+    ]
+   },
+   "properties": {
+    "id": 44,
+    "name": "Naroshankar Temple",
+    "category": "Religious",
+    "subcategory": "Shiva temple",
+    "area": "Panchavati, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "18th century (Peshwa era)",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Peshwa-era stone temple near the Godavari known for its large bell.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Naroshankar+Temple+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.73,
+     20.0302
+    ]
+   },
+   "properties": {
+    "id": 45,
+    "name": "Someshwar Waterfall (Dudhsagar)",
+    "category": "Natural",
+    "subcategory": "Waterfall",
+    "area": "Gangapur, Nashik",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Natural",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Web tourism sources; coordinates estimated",
+    "description": "Seasonal waterfall on the Godavari within Nashik city limits, near Someshwar Temple.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Someshwar+Waterfall+%28Dudhsagar%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.8377,
+     19.9477
+    ]
+   },
+   "properties": {
+    "id": 46,
+    "name": "Nashik Road Railway Station",
+    "category": "Transport",
+    "subcategory": "Railway station",
+    "area": "Nashik Road",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "Colonial era",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Main railway station serving Nashik, on the Mumbai-Bhusawal line.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Nashik+Road+Railway+Station+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.833,
+     19.95
+    ]
+   },
+   "properties": {
+    "id": 47,
+    "name": "Deolali Cantonment",
+    "category": "Historical",
+    "subcategory": "Military cantonment",
+    "area": "Deolali",
+    "taluka": "Nashik",
+    "district": "Nashik",
+    "built_or_era": "British era",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Wikipedia (Nasik district); coordinates estimated",
+    "description": "Historic British-era cantonment and home of the School of Artillery.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Deolali+Cantonment+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.2347,
+     20.1433
+    ]
+   },
+   "properties": {
+    "id": 48,
+    "name": "Lasalgaon Onion Market (APMC)",
+    "category": "Market",
+    "subcategory": "Agricultural market",
+    "area": "Lasalgaon",
+    "taluka": "Niphad",
+    "district": "Nashik",
+    "built_or_era": "Modern",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Among Asia's largest onion trading markets.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Lasalgaon+Onion+Market+%28APMC%29+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.488,
+     20.042
+    ]
+   },
+   "properties": {
+    "id": 49,
+    "name": "Yeola Muktibhoomi",
+    "category": "Historical",
+    "subcategory": "Memorial site",
+    "area": "Yeola",
+    "taluka": "Yeola",
+    "district": "Nashik",
+    "built_or_era": "1935 CE",
+    "verification_status": "low (coordinates uncertain)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Memorial at Yeola where Dr B.R. Ambedkar announced in 1935 that he would not die a Hindu; coordinates are the town centre.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Yeola+Muktibhoomi+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.562,
+     19.695
+    ]
+   },
+   "properties": {
+    "id": 50,
+    "name": "Igatpuri Hill Station",
+    "category": "Tourist",
+    "subcategory": "Hill station",
+    "area": "Igatpuri",
+    "taluka": "Igatpuri",
+    "district": "Nashik",
+    "built_or_era": "-",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "Wikipedia (Nasik district / Igatpuri); coordinates estimated",
+    "description": "Sahyadri hill town about 48 km from Nashik, base for treks such as Harihar, Tringalwadi and Kalsubai.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Igatpuri+Hill+Station+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7594,
+     19.5461
+    ]
+   },
+   "properties": {
+    "id": 51,
+    "name": "Bhandardara (Wilson) Dam",
+    "category": "Water body",
+    "subcategory": "Dam / reservoir",
+    "area": "Bhandardara",
+    "taluka": "Akole",
+    "district": "Ahmednagar (nearby)",
+    "built_or_era": "1926 CE",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Wilson Dam and Arthur Lake near Igatpuri; just outside Nashik district; Umbrella Falls forms when it overflows.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Bhandardara+%28Wilson%29+Dam+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.7117,
+     19.5997
+    ]
+   },
+   "properties": {
+    "id": 52,
+    "name": "Kalsubai Peak",
+    "category": "Natural",
+    "subcategory": "Mountain peak",
+    "area": "Bari village",
+    "taluka": "Akole",
+    "district": "Ahmednagar (nearby)",
+    "built_or_era": "Natural",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Highest peak in Maharashtra (~1,646 m), on the Nashik-Ahmednagar border; popular trek.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Kalsubai+Peak+Nashik&ns6=1&ns14=1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     74.4778,
+     19.7668
+    ]
+   },
+   "properties": {
+    "id": 53,
+    "name": "Sai Baba Temple, Shirdi",
+    "category": "Religious",
+    "subcategory": "Shrine",
+    "area": "Shirdi",
+    "taluka": "Rahata",
+    "district": "Ahmednagar (nearby)",
+    "built_or_era": "Early 20th century",
+    "verification_status": "partial (existence confirmed, coordinates approximate)",
+    "source": "General knowledge; coordinates estimated - confirm on map",
+    "description": "Major pilgrimage town about 90 km from Nashik; included as a nearby destination.",
+    "image_search_url": "https://commons.wikimedia.org/w/index.php?search=Sai+Baba+Temple%2C+Shirdi+Nashik&ns6=1&ns14=1"
+   }
+  }
+ ]
+}
