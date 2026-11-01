@@ -1,4 +1,22 @@
-export type Category = "Temple" | "Heritage" | "Nature" | "Trek" | "Wine" | "Museum";
+export type Category =
+  | "Temple"
+  | "Heritage"
+  | "Nature"
+  | "Trek"
+  | "Wine"
+  | "Museum"
+  | "Agriculture / Tourism"
+  | "Fort"
+  | "Historical"
+  | "Market"
+  | "Memorial"
+  | "Natural"
+  | "Religious"
+  | "Religious / Historical"
+  | "Religious / Natural"
+  | "Tourist"
+  | "Transport"
+  | "Water body";
 
 export type Place = {
   slug: string;
@@ -10,7 +28,10 @@ export type Place = {
   highlights?: string[];
   address?: string;
   website?: string;
-  source?: "live" | "sample";
+  source?: "live" | "sample" | "heritage";
+  era?: string;
+  verificationStatus?: string;
+  sourceDetails?: string;
   distanceKm: number; // approx. from Nashik city centre
   bestSeason?: string;
   timeNeeded?: string;
@@ -28,6 +49,18 @@ export const CHIP: Record<Category, string> = {
   Trek: "bg-ink text-white",
   Wine: "bg-[#9b2d4f] text-white",
   Museum: "bg-[#8a5a2b] text-white",
+  "Agriculture / Tourism": "bg-[#9b2d4f] text-white",
+  Fort: "bg-ink text-white",
+  Historical: "bg-grape text-white",
+  Market: "bg-[#8a5a2b] text-white",
+  Memorial: "bg-grape text-white",
+  Natural: "bg-river text-white",
+  Religious: "bg-saffron text-ink",
+  "Religious / Historical": "bg-grape text-white",
+  "Religious / Natural": "bg-river text-white",
+  Tourist: "bg-river text-white",
+  Transport: "bg-[#8a5a2b] text-white",
+  "Water body": "bg-river text-white",
 };
 
 // Sample places shown only when the live Geoapify request is unavailable (no key or an error).
@@ -81,4 +114,3 @@ export const fallbackPlaces: Place[] = [
     description: "Saptashrungi Gad is a major Devi shrine set among seven peaks. Devotees climb the steps or take the funicular. Navratri brings very large crowds.",
     highlights: ["Hill shrine of the goddess", "Steps or funicular to the top", "Mountain views"], tags: ["devi", "hill", "navratri", "vani"] },
 ];
-

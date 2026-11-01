@@ -1,5 +1,7 @@
 import { cache } from "react";
-import { fallbackPlaces, type Category, type Place } from "@/data/places";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { type Category, type Place } from "@/data/places";
 
 // Nashik city centre. Every search is a radius around this point.
 const CENTER = { lat: 19.9975, lon: 73.7898 };
@@ -13,6 +15,75 @@ const QUERIES: { category: Category; categories: string; radius: number; limit: 
 ];
 
 const DEVANAGARI = /[\u0900-\u097F]/;
+const CATEGORIES: readonly Category[] = [
+  "Temple", "Heritage", "Nature", "Trek", "Wine", "Museum", "Agriculture / Tourism",
+  "Fort", "Historical", "Market", "Memorial", "Natural", "Religious",
+  "Religious / Historical", "Religious / Natural", "Tourist", "Transport", "Water body",
+];
+
+type JsonRecord = Record<string, unknown>;
+
+const isRecord = (value: unknown): value is JsonRecord =>
+  typeof value === "object" && value !== null && !Array.isArray(value);
+
+const isCategory = (value: string): value is Category =>
+  CATEGORIES.some((category) => category === value);
+
+function loadHeritagePlaces(): Place[] {
+  const parsed: unknown = JSON.parse(
+    readFileSync(join(process.cwd(), "nashik_heritage_sites_v2.geojson"), "utf8"),
+  );
+  if (!isRecord(parsed) || !Array.isArray(parsed.features)) {
+    throw new Error("The Nashik heritage GeoJSON must contain a features array.");
+  }
+
+  return parsed.features.map((feature, index) => {
+    if (!isRecord(feature) || !isRecord(feature.properties) || !isRecord(feature.geometry)) {
+      throw new Error(`Invalid Nashik heritage GeoJSON feature at index ${index}.`);
+    }
+
+    const properties = feature.properties;
+    const coordinates = feature.geometry.coordinates;
+    const { id, name, category } = properties;
+    if (
+      typeof id !== "number" ||
+      typeof name !== "string" ||
+      typeof category !== "string" ||
+      !isCategory(category) ||
+      !Array.isArray(coordinates) ||
+      typeof coordinates[0] !== "number" ||
+      typeof coordinates[1] !== "number" ||
+      !Number.isFinite(coordinates[0]) ||
+      !Number.isFinite(coordinates[1]) ||
+      coordinates[0] < -180 ||
+      coordinates[0] > 180 ||
+      coordinates[1] < -90 ||
+      coordinates[1] > 90
+    ) {
+      throw new Error(`Invalid Nashik heritage place data at feature index ${index}.`);
+    }
+
+    const area = typeof properties.area === "string" ? properties.area : "Nashik";
+    const district = typeof properties.district === "string" ? properties.district : "Nashik";
+    const subcategory = typeof properties.subcategory === "string" ? properties.subcategory : undefined;
+    return {
+      slug: `heritage-${id}-${slugify(name)}`,
+      name,
+      category,
+      tagline: [subcategory, area].filter(Boolean).join(" · ") || category,
+      description: typeof properties.description === "string" ? properties.description : undefined,
+      address: `${area}, ${district} District, Maharashtra`,
+      distanceKm: km(coordinates[1], coordinates[0]),
+      lat: coordinates[1],
+      lng: coordinates[0],
+      tags: [category, subcategory, area].filter((tag): tag is string => Boolean(tag)),
+      source: "heritage",
+      era: typeof properties.built_or_era === "string" ? properties.built_or_era : undefined,
+      verificationStatus: typeof properties.verification_status === "string" ? properties.verification_status : undefined,
+      sourceDetails: typeof properties.source === "string" ? properties.source : undefined,
+    };
+  });
+}
 
 const km = (lat: number, lon: number) => {
   const r = (d: number) => (d * Math.PI) / 180;
@@ -22,6 +93,8 @@ const km = (lat: number, lon: number) => {
 };
 
 const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+const heritagePlaces = loadHeritagePlaces();
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export function featureToPlace(f: any, category: Category): Place | null {
@@ -69,13 +142,16 @@ export const getPlaces = cache(async (): Promise<{ places: Place[]; live: boolea
     try {
       const groups = await Promise.all(QUERIES.map((q) => fetchCategory(q, key)));
       const seen = new Set<string>();
-      const places = groups.flat().filter((p) => (seen.has(p.slug) ? false : seen.add(p.slug)));
-      if (places.length) return { places, live: true };
+      const places = [...heritagePlaces, ...groups.flat()].filter((p) => {
+        const name = p.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+        return seen.has(name) ? false : (seen.add(name), true);
+      });
+      if (groups.some((group) => group.length > 0)) return { places, live: true };
     } catch {
-      /* fall through to sample data */
+      /* Fall back to the bundled Nashik heritage dataset. */
     }
   }
-  return { places: fallbackPlaces.map((p) => ({ ...p, source: "sample" as const })), live: false };
+  return { places: heritagePlaces, live: false };
 });
 
 export async function getPlace(slug: string) {

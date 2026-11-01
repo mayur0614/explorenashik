@@ -23,8 +23,16 @@ export default async function PlacePage({ params }: Props) {
   const { places } = await getPlaces();
   const more = places.filter((x) => x.category === p.category && x.slug !== p.slug).slice(0, 3);
   const facts: [string, string][] = [["Distance", `${p.distanceKm} km`]];
+  if (p.era) facts.push(["Era", p.era]);
   if (p.bestSeason) facts.push(["Best time", p.bestSeason]);
   if (p.timeNeeded) facts.push(["Time needed", p.timeNeeded]);
+  const mapParams = new URLSearchParams({
+    bbox: `${p.lng - 0.012},${p.lat - 0.008},${p.lng + 0.012},${p.lat + 0.008}`,
+    layer: "mapnik",
+    marker: `${p.lat},${p.lng}`,
+  });
+  const mapUrl = `https://www.openstreetmap.org/export/embed.html?${mapParams.toString()}`;
+  const openStreetMapUrl = `https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lng}#map=16/${p.lat}/${p.lng}`;
 
   return (
     <main className="mx-auto max-w-3xl px-5 py-10 sm:py-16">
@@ -42,6 +50,24 @@ export default async function PlacePage({ params }: Props) {
 
       {p.address && <p className="mt-8 text-lg">{p.address}</p>}
       {p.description && <p className="mt-6 max-w-prose text-lg leading-relaxed">{p.description}</p>}
+      <section className="mt-10" aria-labelledby="location-heading">
+        <h2 id="location-heading" className="font-display text-2xl font-semibold">Location</h2>
+        <div className="mt-3 overflow-hidden rounded-sm border border-ink/20 bg-white">
+          <iframe
+            src={mapUrl}
+            title={`OpenStreetMap location of ${p.name}`}
+            className="h-[360px] w-full border-0"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+        {p.verificationStatus && (
+          <p className="mt-2 text-sm text-ink/70">
+            Location verification: {p.verificationStatus}
+            {p.sourceDetails && <> · Source: {p.sourceDetails}</>}
+          </p>
+        )}
+      </section>
       {p.highlights && (
         <>
           <h2 className="mt-8 font-display text-2xl font-semibold">What to see</h2>
@@ -51,8 +77,12 @@ export default async function PlacePage({ params }: Props) {
 
       <div className="mt-10 flex flex-wrap gap-3">
         <a
-          href={`https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`} target="_blank" rel="noopener noreferrer"
+          href={openStreetMapUrl} target="_blank" rel="noopener noreferrer"
           className="rounded-full bg-river px-5 py-2 font-semibold text-white hover:bg-river/90"
+        >Open in OpenStreetMap</a>
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`} target="_blank" rel="noopener noreferrer"
+          className="rounded-full border border-ink px-5 py-2 font-semibold hover:bg-ink/10"
         >Open in Google Maps</a>
         {p.website && (
           <a href={p.website} target="_blank" rel="noopener noreferrer" className="rounded-full border border-ink px-5 py-2 font-semibold hover:bg-ink/10">Website</a>
@@ -69,7 +99,7 @@ export default async function PlacePage({ params }: Props) {
         </>
       )}
       <p className="mt-16 border-t border-ink/20 pt-6 text-sm text-ink/70">
-        Place data © <a className="underline" href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, via <a className="underline" href="https://www.geoapify.com/">Geoapify</a>.
+        Map data © <a className="underline" href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Heritage place details include bundled dataset source notes.
       </p>
     </main>
   );

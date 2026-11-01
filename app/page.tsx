@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Explorer from "@/components/Explorer";
 import { getPlaces } from "@/lib/places";
-import { getHeritageSites } from "@/lib/heritage";
 import LanguageSelector from "@/components/LanguageSelector";
 
 export default async function Home() {
-  const [{ places, live }, heritage] = await Promise.all([getPlaces(), getHeritageSites()]);
+  const { places, live } = await getPlaces();
   return (
     <main className="mx-auto max-w-5xl px-5 py-6 sm:py-10">
       <header className="flex flex-wrap items-center justify-between gap-4 border-b border-ink/20 pb-4">
@@ -49,27 +48,13 @@ export default async function Home() {
       </section>
       {!live && process.env.NODE_ENV !== "production" && (
         <p className="mt-6 border-l-4 border-saffron pl-3 text-sm">
-          Showing sample places. Set GEOAPIFY_API_KEY in .env.local to load live places.
+          Showing the bundled Nashik heritage dataset. Set GEOAPIFY_API_KEY in .env.local to add live place listings.
         </p>
       )}
       <div id="explore" className="mt-10"><Explorer places={places} /></div>
 
-      {heritage.length > 0 && (
-        <section className="mt-16">
-          <h2 className="font-display text-3xl font-semibold">Heritage of Nashik</h2>
-          <ul className="mt-4 divide-y divide-ink/20 border-t border-ink/20">
-            {heritage.map((h) => (
-              <li key={h.id} className="py-4">
-                <p className="font-display text-xl font-semibold">{h.name} <span className="text-base font-normal text-ink/70">in {h.location}</span></p>
-                <p className="text-ink/80">{h.description}</p>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
       <footer className="mt-16 border-t border-ink/20 pt-6 text-sm text-ink/70">
-        <p>Place data © <a className="underline" href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, via <a className="underline" href="https://www.geoapify.com/">Geoapify</a>. Distances are straight-line from the city centre.</p>
+        <p>Map data © <a className="underline" href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Heritage places are from the bundled Nashik dataset{live ? " and Geoapify" : ""}. Distances are straight-line from the city centre.</p>
         <p className="mt-1">Check opening hours and entry rules before you go.</p>
       </footer>
     </main>
